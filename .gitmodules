@@ -1,3 +1,3 @@
-[submodule "module/vim/install/Vundle.vim"]
-	path = module/vim/install/Vundle.vim
-	url = https://github.com/VundleVim/Vundle.vim
+[submodule "owt-vim"]
+	path = module/vim
+	url = https://github.com/wangxin201492/owt-vim
