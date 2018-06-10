@@ -1,1 +1,0 @@
-rsync -avr --delete wangxin44@10.94.44.45:/home/users/wangxin44/workspace/vim-installer/ ./

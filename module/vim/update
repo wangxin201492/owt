@@ -1,9 +1,0 @@
-#!/bin/bash
-
-rsync -avr --delete ~/.vim/bundle/Vundle.vim ./install
-mv vimrc vimrc.bak
-cp ~/.vimrc ./vimrc
-
-git add -A
-git commit -m "update vimrc"
-git push

@@ -1,7 +1,0 @@
-#!/bin/bash
-
-mv ~/.vimrc ~/.vimrc.bak
-cp vimrc ~/.vimrc
-
-mkdir -p ~/.vim/bundle
-rsync -ar ./install/Vundle.vim ~/.vim/bundle/

@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/users/wangxin44/workspace/go/src/gitlab.baidu.com'
-let g:netrw_dirhist_2='/home/users/wangxin44/workspace/go/src/gitlab.baidu.com/wangxin44'
-let g:netrw_dirhist_3='/home/users/wangxin44/workspace/go/src/gitlab.baidu.com/wangxin44/ko'
-let g:netrw_dirhist_4='/home/users/wangxin44/workspace/odp/app/newapp/models/dao'
-let g:netrw_dirhist_5='/home/users/wangxin44/workspace/odp/app/newapp/models/service/data'
