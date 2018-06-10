@@ -1,0 +1,3 @@
+[submodule "owt-vim"]
+	path = module/vim
+	url = https://github.com/wangxin201492/owt-vim
