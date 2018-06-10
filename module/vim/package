@@ -1,0 +1,11 @@
+#!/bin/bash
+
+currentPath=$(dirname $0)
+[[ ${currentPath} == '.' ]] && {
+    echo "curren work dir"
+    currentPath=$(pwd)
+}
+parentPath=$(dirname ${currentPath})
+echo -e "parentPath:\t${parentPath}"
+
+rsync -avr --delete --exclude bundle/Vundle.vim ~/.vim/ vim/
