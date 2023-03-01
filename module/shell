@@ -1,0 +1,35 @@
+#!/bin/bash
+function usage() {
+cat << EOF
+Usage: $0 [required params] [optional params]
+Required params:
+ -n namespace
+ -t table
+Optional params:
+ -h
+EOF
+exit 1
+}
+
+ns=""
+tbl=""
+
+while getopts "n:t:h" opt; do
+    case $opt in
+        n) ns="$OPTARG" ;;
+        t) tbl="$OPTARG" ;;
+        ?) usage ;;
+    esac
+done
+
+[[ -z $ns ]] || [[ -z $tbl ]] && usage
+
+# > false && echo foo || echo bar
+# bar
+# > true || echo foo && echo bar
+# bar
+# > false || echo foo && echo bar
+# foo
+# bar
+# > true && echo foo || echo bar
+# foo
